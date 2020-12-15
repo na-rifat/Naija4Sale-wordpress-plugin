@@ -1,0 +1,14 @@
+{
+    "name": "naija/naija",
+    "description": "Adds more advance functionality",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Naija\\":"includes/"
+        },
+        "files": ["includes/functions.php"]
+    }
+}

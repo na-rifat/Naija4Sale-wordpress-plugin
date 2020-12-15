@@ -1,0 +1,31 @@
+.owl-item {
+  min-height: 140px !important;
+}
+.owl-item > div {
+  height: 140px;
+}
+.owl-item > div > div {
+  height: 140px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.owl-item .category-item{
+    position: absolute;
+    bottom: 0;
+}
+
+.trusted-badge{
+  height: 70px;
+  width: 50px;  
+}
+.profile-info-holder{
+  display: inline-block;
+  margin-right: 10px;  
+}
+.badge-holder{
+  display: inline-block;
+}
+.g-recaptcha > div{
+  margin: auto;
+}
